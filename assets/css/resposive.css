@@ -1,0 +1,446 @@
+
+ @media(max-width:3000px){
+    .welcome .welcome-img {
+        width: 20%;
+        left: 22%;
+    }
+    .about .about-intro h4 {
+        margin: 50px 0px 0px 9px;
+    }
+    .hero-content .banner-img {
+        right: 19%;
+        bottom: 0;
+        width: 25%;
+    }
+}
+
+@media(max-width:2560px){
+    .welcome .welcome-img {
+        width: 23%;
+        left: 13%;
+    }
+    .about .about-intro h4 {
+        margin: 50px 0px 0px 9px;
+    }
+    .hero-content .banner-img {
+        right: 19%;
+        bottom: 0;
+        width: 25%;
+    }
+    @media(max-width:1440px){
+        .about .about-intro .btn-main {
+            margin: 0 9px 0 -3px;
+        }
+        .welcome .welcome-img {
+            width: 39%;
+            left: 1%;
+        }
+        .hero-content .banner-img {
+            right: 9%;
+            bottom: 0;
+            width: 34%;
+            top: 27%;
+        }
+        .welcome .welcome-img {
+            width: 38%;
+            left: 2%;
+        }
+    }    
+
+
+@media(max-width:1024px){
+    .navbar-nav {
+        margin-right: 131px;
+    }
+    .apt .fa-regular {
+        margin: 0 0px 0 -21px;
+    }
+    .apt {
+        padding: 12px 50px;
+        margin-left: 238px;
+    }
+    .about .about-intro .form-controll {
+        padding: 7px 11px;
+    }
+    .hero-content .text {
+        padding: 132px 0px 132px 32px;
+    }
+    .hero-content .text h2 {
+        margin: 0px 276px 0px 0px;
+    }
+    .hero-content .banner-img {
+        top: 28%;
+        width: 47%;
+    }
+    .hero-content .text h1 {
+        margin: 11px 69px 13px 0px;
+        font-size: 38px;
+    }
+    .welcome .welcome-img {
+        position: absolute;
+        width: 57%;
+        left: -14%;
+        bottom: 0%;
+    }
+    .about .about-intro .social-btn .fa-brands {
+        margin-left: 3px;
+        font-size: 16px;;
+        padding: 6px 7px;
+    }
+    .service .service-context {
+        border: 4px solid #ebebeb;
+        padding: 15px 23px;
+        margin-bottom: 25px;
+        transition: all .4s ease-in-out;
+    }
+    .client-carousol .owl-nav button.owl-next span {
+        right: -3%;
+    }
+    .nav-link {
+        color: #fff;
+        padding: 15px 0;
+    }
+}
+@media(max-width:768px){
+    .resposive-hide{
+        display: none;
+    }
+    .apt .fa-regular {
+        margin: 0
+    }
+    .nav-link {
+ 
+        padding: 6px 0;
+
+    }
+    .dropdown-menu .header-info p{
+        color: #fff;
+    }
+    .header-info {
+        display: flex;
+        gap: 18px;
+        justify-content: initial;
+        align-items: initial;
+        flex-direction: column;
+    }
+    .apt a {
+        font-size: 18px;
+    }
+    .apt {
+        padding: 5px 16px;
+        display: inline-block;
+        margin: 0;
+    }
+    .hero-content {
+      height: auto;
+    }
+    .nav-item {
+        font-size: 15px;
+    }
+    .banner-carousol .owl-nav button.owl-prev span{
+        display: none;
+    }
+    .banner-carousol .owl-nav button.owl-next span{
+        display: none;
+    }
+    .banner-carousol .owl-dots .owl-dot span{
+        display: none;
+    }
+    .hero-content .text {
+        padding: 29px 0 0 0;
+        text-align: center;
+    }
+    .hero-content .banner-img {
+        bottom: 0;
+        width: 43%;
+        top: initial;
+    }
+    .dekstop-hide{
+        display: initial;
+    }
+    .title-icon {
+        font-size: 27px;
+        color: #f69165;
+        margin: 6px 0;
+    }
+    .hero-content .text h2 {
+        font-size: 28px;
+        margin: 0 241px;
+        padding: 0 0 0 10px;
+    }
+    .hero-content .text h1 {
+        font-size: 38px;
+        margin: 9px 130px;
+        padding: 0 0 0 10px;
+    }
+    .banner-bg-two{
+        background: none;
+    }
+    .welcome {
+        padding: 27px 0;
+    }
+    .welcome .welcome-img {
+        display: none;
+    }
+    .welcome-content{
+        text-align: center;
+    }
+    .welcome .welcome-content p {
+        padding: 8px 0;
+    }
+    .welcome .welcome-content h2 {
+        font-size: 28px;
+    }
+    .welcome .teeths {
+        margin-top: 31px;
+        text-align: center;
+    }
+    .welcome .teeths p {
+        line-height: 20px;
+    }
+    .welcome .teeths i {
+        font-size: 34px;
+        color: #f69165;
+    }
+    .price-sec {
+        padding: 12px 0;
+    }
+    .doctores {
+        padding: 25px 0;
+    }
+    .doctores .Doctor-content p {
+        padding: 0;
+    }
+    .doctores .Doctor-content h2 {
+        font-size: 30px;
+    }
+    .doctores .Doctor-content {
+        margin-bottom: 47px;
+    }
+    .Doctor-details h4 {
+        font-size: 19px;
+    }
+    .Doctor-details .social-info .fa-brands {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        padding:  0;
+    }
+    .service .service-contect p {
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    .service {
+        padding: 20px 0 0 0;
+    }
+    .service-contect h2 {
+        font-size: 32px;
+    }
+    .service-contect p {
+        padding: 0;
+        margin-bottom: 43px;
+    }
+    .service .service-context i {
+        font-size: 18px;
+    }
+    .price-sec .price-table {
+        padding: 17px 0px;
+    }
+    .price-sec .price-table h3 {
+        font-size: 28px;
+    }
+    .price-sec .price-table .margin-p {
+        margin-bottom: 29px;
+    }
+    .price-sec .price-table .margin-p p {
+        margin-top: 12px;
+    }
+    .client-carousol .owl-nav button.owl-prev span {
+        display: none;
+    }
+    .client-carousol .owl-nav button.owl-next span{
+        display: none;
+    }
+    .client-section {
+        padding: 21px 0;
+    }
+    .client-section h1 {
+        font-size: 29px;    
+        margin-bottom: 13px;      
+    }
+    .about {
+        padding: 18px 0;
+    }
+    .about .about-intro h3 {
+        margin: 0px 0 23px 0;
+    }
+    .about .about-intro .abou-icon-1 i {
+        margin: 0px 0 15px 0;
+        font-size: 23px;
+    }
+    .about .about-intro {
+        text-align: center;
+    }
+    .about .post {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .about .post .post-img-content {
+        display: block;
+    }
+    .about .post .post-img {
+        margin: 0 0 10px 0;
+    }
+    .about .about-intro h4 {
+        margin-top: 34px;
+    }
+    .about .about-intro .social-btn .fa-brands {
+        margin-left: 0px;
+        font-size: 17px;
+    }
+    .fotter {
+        padding: 13px 0;
+    }
+    .navbar {
+        --bs-navbar-padding-y: 5px;
+    }
+    .navbar-toggler:focus {
+
+        box-shadow: none;
+    }
+   
+}
+@media(max-width:575px){
+    .Doctor-details .social-info {
+        left: 38%;
+    }
+    .hero-content .text h2 {
+        margin: 0px 165px;
+        padding: 0 0 0 0px;
+    }
+    .about .about-intro h4 {
+        display: block;
+        margin: 15px 0 5px 0;
+    }
+    .hero-content .text h1 {
+        font-size: 36px;
+        margin: 9px 62px;
+        padding: 0 0 0 0px;
+    }
+    .header-info i {
+        font-size: 24px;
+    }
+}
+@media(max-width:425px){
+    .header-info .call-us h5 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .hero-content .text h2 {
+        margin: 0px 93px;
+    }
+    .hero-content .text h1 {
+        font-size: 31px;
+        margin: 9px 25px;
+    }
+    .welcome .welcome-content h2 {
+        font-size: 27px;
+    }
+    .doctores .Doctor-content h2 {
+        font-weight: 600;
+    }
+    .service .service-context a {
+        font-weight: 700;   
+        font-size: 15px;
+    }
+    .service .service-context h4 {
+        margin-left: 4px;
+        font-size: 21px;
+    }
+    .service .service-context {
+        margin-bottom: 15px;
+    }
+    .service-contect h2 {
+        font-size: 30px;
+    }
+    .service-contect p {
+        margin-bottom: 28px;
+        font-size: 14px;
+    }
+    .about .about-intro .abou-icon-1 p {
+        padding: 0;
+    }
+    .about .about-intro .abou-icon-1 {
+        flex-direction: column;
+        margin-bottom: 16px;
+    }
+    .Doctor-details .social-info {
+        left: 31%;
+    }
+}
+@media(max-width:375px){
+    .welcome .welcome-content h2 {
+        font-size: 25px;
+    }
+    .hero-content .text h2 {
+        margin: 0px 70px;
+    }
+    .hero-content .text h1 {
+        margin: 9px 6px;
+    }
+    .client-section h1 {
+        font-size: 26px;
+    }
+    .service-contect p {
+        font-size: 13px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .resposive-logo{
+        width: 170px;
+    }
+
+}
+@media(max-width:320px){
+    .resposive-logo{
+        width: 146px;
+    }
+    .Doctor-details .social-info {
+        left: 26%;
+    }
+    .about .about-intro .form-controll {
+        margin-bottom: 11px;
+    }
+    .hero-content .text h2 {
+        margin: 0px 43px;
+    }
+    .hero-content .text h1 {
+        font-size: 26px;
+    }
+    .hero-content .banner-bg-two .text h2 {
+        font-size: 21px;
+    }
+    .fotter p {
+        font-size: 11px;
+    }
+    .about .about-intro h3 {
+        margin: 0px 0 14px 0;
+    }
+    .about .about-intro h3 {
+        font-size: 28px;
+    }
+    .apt {
+        margin: 0 -8px 0 0px;
+    }
+    .apt a {
+        font-size: 15px;
+    }
+    .apt .fa-regular {
+       
+        font-size: 17px;
+    }
+}

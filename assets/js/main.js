@@ -1,0 +1,53 @@
+$('.banner-carousol').owlCarousel({
+    loop:true,
+    nav:true,
+    autoplay:true,
+    autoplaytimeout:5000,
+    anitmateIn:true,
+    anitmateOut:true,
+    smartSpeed:500,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+$('.client-carousol').owlCarousel({
+    loop:true,
+    nav:true,
+    autoplay:true,
+    autoplaytimeout:5000,
+    anitmateIn:true,
+    anitmateOut:true,
+    smartSpeed:500,
+    responsive:{
+        0:{
+            items:2
+        },
+        300:{
+            items:1
+        },
+        375:{
+            items:2
+        },
+        500:{
+            items:2
+        },
+        500:{
+            items:2
+        },
+        768:{
+            items:3
+        },
+        1000:{
+            items:4
+        },
+        
+    }
+})
